@@ -1,0 +1,35 @@
+Package: jtlTools
+Type: Package
+Title: John's package with some utilities and required pacakges
+Version: 0.1.0
+Author: JT Lovell
+Maintainer: JT Lovell <johntlovell@gmail.com>
+Description: Just some personal stuff. 
+License: None
+Encoding: UTF-8
+LazyData: true
+Depends: 
+  plyr,
+  dplyr,
+  reshape2,
+  ggplot2,
+  RColorBrewer,
+  gridExtra,
+  knitr,
+  xtable,
+  reshape,
+  tidyr,
+  rnoaa,
+  lubridate,
+  devtools,
+  zoo,
+  rgdal,
+  sp,
+  qtlTools,
+  parallel,
+  devtools,
+  viridis,
+  openxlsx,
+  corrplot,
+  SPEI
+RoxygenNote: 6.0.1
