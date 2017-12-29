@@ -35,7 +35,7 @@
 #' lapply(histWeather, head)
 #' out = procWeather(histWeather=histWeather, years2plot = 2012:2016)
 #' }
-
+#' @export
 procWeather = function(histWeather, years2plot = c(2016, 2017),
                        siteLevels=NULL, plotit = T){
 
